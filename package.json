@@ -1,0 +1,40 @@
+{
+  "name": "react-native-selec-item4",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-native": "0.66.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "react-native-select2",
+    "select2",
+    "component"
+  ],
+  "author": "Ayoub Moustahfid",
+  "licence": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-modal": "^11.1.0"
+  },
+  "devDependencies": {
+    "react": "16.6.1",
+    "react-native": "~0.57.7",
+    "react-native-modal": "^11.1.0"
+  }
+}
