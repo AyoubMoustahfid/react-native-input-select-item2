@@ -1,40 +1,35 @@
 {
-  "name": "react-native-selec-item4",
+  "name": "react-native-input-select-item1",
+  "description": "Component like Select on web for React Native",
   "version": "0.0.1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "react": "17.0.2",
-    "react-native": "0.66.3"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/"
+    "url": "git+https://github.com/AyoubMoustahfid/react-native-select-item4.git"
   },
   "keywords": [
     "react-native",
     "react-component",
     "react-native-component",
     "react",
-    "mobile",
-    "ios",
-    "android",
-    "ui",
-    "react-native-select2",
-    "select2",
-    "component"
+    "react-native-select",
+    "select-textinput"
   ],
+  "bugs": {
+    "url": "https://github.com/AyoubMoustahfid/react-native-select-item4/issues"
+  },
   "author": "Ayoub Moustahfid",
   "licence": "MIT",
   "peerDependencies": {
-    "react": "*",
-    "react-native": "*",
-    "react-native-modal": "^11.1.0"
+    "react": "17.0.2",
+    "react-native": "17.0.2",
+    "react-native-modal": "^13.0.0"
   },
   "devDependencies": {
-    "react": "16.6.1",
-    "react-native": "~0.57.7",
-    "react-native-modal": "^11.1.0"
+    "react": "17.0.2",
+    "react-native": "17.0.2",
+    "react-native-modal": "^13.0.0"
   }
 }
