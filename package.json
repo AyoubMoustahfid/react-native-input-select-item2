@@ -1,7 +1,7 @@
 {
-  "name": "react-native-input-select-item1",
+  "name": "react-native-input-select-item2",
   "description": "Component like Select on web for React Native",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,13 +23,13 @@
   "author": "Ayoub Moustahfid",
   "licence": "MIT",
   "peerDependencies": {
-    "react": "17.0.2",
-    "react-native": "17.0.2",
-    "react-native-modal": "^13.0.0"
+    "react": "*",
+    "react-native": "*",
+    "react-native-modal": "^11.10.0"
   },
   "devDependencies": {
-    "react": "17.0.2",
-    "react-native": "17.0.2",
-    "react-native-modal": "^13.0.0"
+    "react": "*",
+    "react-native": "*",
+    "react-native-modal": "^11.10.0"
   }
 }
