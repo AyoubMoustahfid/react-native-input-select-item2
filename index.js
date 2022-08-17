@@ -52,7 +52,7 @@ class Select extends Component {
         let { data, keyword } = this.state;
         let listMappingKeyword = [];
         data.map(item => {
-            if (utilities.changeAlias(item.name).includes(utilities.changeAlias(keyword))) {
+            if (utilities.changeAlias(item.lib).includes(utilities.changeAlias(keyword))) {
                 listMappingKeyword.push(item);
             }
         });
@@ -104,7 +104,7 @@ class Select extends Component {
                 activeOpacity={0.7}
                 style={styles.itemWrapper}>
                 <Text style={[styles.itemText, this.defaultFont]}>
-                    {item.name}
+                    {item.lib}
                 </Text>
                 <MaterialCommunityIcons style={styles.itemIcon}
                     name={item.checked ? 'check-circle-outline' : 'radiobox-blank'}
@@ -220,7 +220,7 @@ class Select extends Component {
                     preSelectedItem.length > 0
                         ? (
                             isSelectSingle
-                                ? <Text style={[styles.selectedTitlte, this.defaultFont, selectedTitleStyle, { color: '#333' }]}>{preSelectedItem[0].name}</Text>
+                                ? <Text style={[styles.selectedTitlte, this.defaultFont, selectedTitleStyle, { color: '#333' }]}>{preSelectedItem[0].lib}</Text>
                                 : <View style={styles.tagWrapper}>
                                     {
                                         preSelectedItem.map((tag, index) => {
@@ -244,7 +244,7 @@ class Select extends Component {
                                                         this.setState({ data, preSelectedItem });
                                                         onRemoveItem && onRemoveItem(selectedIds, selectedObjectItems);
                                                     }}
-                                                    tagName={tag.name} />
+                                                    tagName={tag.lib} />
                                             );
                                         })
                                     }
